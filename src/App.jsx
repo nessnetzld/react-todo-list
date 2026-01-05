@@ -43,6 +43,7 @@ export default function App() {
 
   return (
     <>
+      {/* AddNewTodoForm component to add new todos */}
       <NewTodoForm onSubmit={addTodo} />
       <h1 className="header">Todo List</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
